@@ -1,0 +1,28 @@
+Solution to be followed in CMD :
+
+npm config set proxy http://username:password@proxy_ip:80
+npm config set https-proxy http://username:password@proxy_ip:80 
+
+PERMANENT SOLUTION :
+
+Create a ".npmrc" extension text doc in users  in C:/Users/Your_Name Folder, it should have no name but .npmrc extension.
+
+To open a proxy file : just type proxy address(http://infypacsrv/pune.pac) in any browser.
+You can use : http://wiki/Firefox/Using_Firefox_in_Infosys 
+to see your DC's PRoxy
+
+put IPADDRESS:80(PORT), which would be written after PROXY from http://infypacsrv/pune.pac file. [Example:PROXY 10.74.91.103:80]
+
+
+
+Inside".npmrc" FILE:
+
+proxy=http://InfosysUsername:InfosysPassword@10.74.91.103:80
+
+https-proxy=http://nfosysUsername:infosysPassword@10.74.91.103:80
+
+If Password contains an @ replace it with %40 : which is character encoding symbol for @ 
+For Other Character encoding values,for special characters, you can visit the link :
+ --> http://www.w3schools.com/tags/ref_urlencode.asp 
+
+

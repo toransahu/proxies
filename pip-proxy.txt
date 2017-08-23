@@ -1,0 +1,16 @@
+#bash
+
+export https_proxy=http://toran.sahu:Password@10.74.91.103:80
+export http_proxy=http://toran.sahu:Password@10.74.91.103:80
+
+
+#cmd
+set https_proxy=http://toran.sahu:Password@10.152.80.42:80
+set http_proxy=http://toran.sahu:Password@10.152.80.42:80
+
+
+working -- 23/Aug/17
+
+10.152.80.42:80 Chandigarh DC 
+
+http://wiki/Firefox/Using_Firefox_in_Infosys
