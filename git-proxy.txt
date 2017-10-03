@@ -2,7 +2,8 @@ git config --global http.proxy http://proxyuser:proxypwd@proxy.server.com:8080
 
 git config --global http.proxy http://toran.sahu:proxypwd@10.152.80.42:80
 
-git config --global http.proxy http://toran.sahu:proxypwd@10.74.91.103:80 (working)
+git config --global http.proxy http://toran.sahu:proxypwd@10.74.91.103:80 (working 3 oct 17)
+git config --global https.proxy http://toran.sahu:proxypwd@10.74.91.103:80 (working 3 oct 17)
 
 change proxyuser to your proxy user
 change proxypwd to your proxy password
@@ -15,6 +16,12 @@ Command to use:
 git config --global --unset http.proxy
 Finally, to check the currently set proxy:
 
+# to check
 git config --global --get http.proxy
+git config --global --get https.proxy
+
+#to unset
+git config --global --unset http.proxy
+git config --global --unset https.proxy
 
 git clone https://github.com/toransahu/Git-Workshop.git
